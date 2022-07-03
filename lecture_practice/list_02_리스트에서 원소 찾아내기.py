@@ -9,3 +9,6 @@ def solution(L, x):
         answer.append(-1)
     
     return answer
+
+
+solution([64, 72, 83, 72, 54], 72)
