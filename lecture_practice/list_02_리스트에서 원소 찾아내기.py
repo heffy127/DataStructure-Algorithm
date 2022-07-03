@@ -1,3 +1,6 @@
+# L : 리스트 값 삽입
+# x : 정수 삽입
+
 def solution(L, x):
     answer = []
     
@@ -9,6 +12,3 @@ def solution(L, x):
         answer.append(-1)
     
     return answer
-
-
-solution([64, 72, 83, 72, 54], 72)
